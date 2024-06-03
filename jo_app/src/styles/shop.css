@@ -1,0 +1,55 @@
+.citySelect {
+  display: flex;
+  justify-content: center;
+}
+
+.citySelect select {
+  max-width: 500px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  outline: none;
+  padding: 8px 25px;
+}
+
+.shops {
+  padding: 20px;
+}
+
+.shops h2 {
+  margin-bottom: 20px;
+}
+
+.shops ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  list-style: none;
+}
+
+.shops ul li {
+  border-radius: 5px;
+  box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.15);
+  padding: 20px;
+}
+
+.shops ul li h3 {
+  margin-top: 0;
+}
+
+.shops ul li p {
+  margin: 0;
+}
+
+.shops ul li p:last-child {
+  margin-top: 10px;
+}
+
+.shops ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.shops ul li a:hover {
+  text-decoration: underline;
+}
