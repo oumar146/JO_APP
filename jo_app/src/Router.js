@@ -1,5 +1,5 @@
 import Home from './pages/Home';
-import Faq from './components/Faq';
+import Faq from './pages/Faq';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function Router() {

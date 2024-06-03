@@ -1,15 +1,14 @@
 import Header from '../components/Header'
 import Banner from '../components/Banner';
-import React, { useState } from 'react';
+import HomeMain from '../components/HomeMain';
 const Home = () => {
-    const [query, setQuery] = useState('');
-    const [faqResults, setFaqResults] = useState([]);
 
+    const text = 'paris 2024 data la plateforme d\'information';
     return (
         <div>
             <Header />
-            <Banner query={query} setQuery={setQuery}
-                results={faqResults} setResults={setFaqResults} />
+            <Banner text={text} />
+            <HomeMain />
         </div>
     )
 }

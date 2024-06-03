@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 
-/*Ce composant à besoins des props suivant : id = id du film et setData = fonction pour changer la valeur d'un state */
+/*Ce composant à besoin des props d'une fonction pour changer la valeur d'un state */
 const FaqAPI = (props) => {
 
     useEffect(() => {
