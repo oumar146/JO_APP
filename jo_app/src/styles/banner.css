@@ -1,0 +1,13 @@
+.bg-banner {
+  background: linear-gradient(180deg, #6f0e48, #c23751);
+}
+h1 {
+  color: #fff;
+  font-style: italic;
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 60px;
+  margin-top: 0px;
+}
