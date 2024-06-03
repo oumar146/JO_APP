@@ -11,7 +11,6 @@ const Header = () => {
                 <p>Paris 2024 data</p>
             </NavLink>
             <ul className='nav-links'>
-                <li>FAQ</li>
                 <li>Inscription</li>
                 <li>Connexion</li>
             </ul>
