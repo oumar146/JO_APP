@@ -4,6 +4,7 @@ import Banner from '../components/Banner';
 import ShopAPI from '../JO_API/ShopAPI';
 import '../styles/shop.css'
 
+
 const CitySelection = (props) => {
     // Récupérer les données des villes depuis les props
     const citiesData = props.data;
